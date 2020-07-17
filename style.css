@@ -1,0 +1,111 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+
+}
+
+@media (min-width: 992px) {
+
+.col-lg-4{
+  width: 33.33%;
+  float:left;
+}
+
+}
+
+
+/********** Medium devices  **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-4,
+  .col-md-6 {
+    float: left;    
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  
+  .col-md-6 {
+    width: 50%;
+  }
+  
+  }
+
+  /********** Small devices **********/
+@media (max-width: 767px){
+  .col-sm-12 {
+    float:left;
+    width: 100%;
+  }
+}
+
+
+#row{
+  
+  width: 100%;
+  padding: 5px;
+  
+}
+
+
+h1{
+  font-family: 'Bahnschrift';
+  color:#303C50;
+  text-align: center;
+  margin: 45px 0;
+}
+
+.wrap{
+  background-color: pink;
+  border: 1px solid black;
+  float: left;
+  margin: 10px;
+}
+
+
+section>h3{
+  margin:0px;
+  padding: 10px;
+  font-family: 'Bahnschrift';
+  font-size: 1.5em;
+  float: right;
+  clear: both;
+  position: relative;
+  top: -4px;
+  left: 4px;
+}
+
+#title1{
+  background-color: blue;
+  border: 1px solid black;
+  color: yellow;
+
+}
+
+#title2{
+  background-color: #50556e;
+  border: 1px solid black;
+  color: yellow;
+
+}
+
+#title3{
+  background-color: #389cc5;
+  border: 1px solid black;
+  color: yellow;
+
+}
+section>p{
+  margin: 0px;
+  padding: 10px;
+  float: left;
+  font-family:'Bahnschrift';
+  font-size: 1.5em;
+  line-height: 1.5em;
+  clear: right;
+  color: #303C50;
+}
